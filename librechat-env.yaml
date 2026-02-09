@@ -234,3 +234,11 @@ endpoints:
         max_tokens: 32000
         temperature: 0.7
         stream: false
+
+mcpServers:
+  github-mcp:
+    type: 'streamable-http'
+    url: $GITHUB-MCP-URL
+    timeout: 60000
+    headers:
+      Authorization: 'Bearer ${GITHUB-MCP-KEY}'
