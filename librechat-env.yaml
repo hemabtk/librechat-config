@@ -216,21 +216,21 @@ endpoints:
       modelDisplayLabel: Requesty
       iconURL: https://app.requesty.ai/_next/image?url=%2Ffavicon.ico&w=96&q=75
 
-  - name: 'LLM-GW-V1'
-    apiKey: '${API_KEY}'
-    baseURL: '${BASE_URL}'
-    userProvidedApiKey: false
-    models:
-      default: ['gpt-41']
-      fetch: false
-    titleConvo: true
-    titleModel: 'gpt-41'
-    modelDisplayLabel: '${MODEL_DISPLAY_LABEL}'
-    additionalParameters:
-      model: 'gpt-41'
-      messages:
-      - role: 'user'
-        content: ''
-      max_tokens: 32000'
-      temperature: 0.7
-      stream: false
+    - name: 'LLM-GW-V1'
+      apiKey: '${API_KEY}'
+      baseURL: '${BASE_URL}'
+      userProvidedApiKey: false
+      models:
+        default: ['gpt-41']
+        fetch: false
+      titleConvo: true
+      titleModel: 'gpt-41'
+      modelDisplayLabel: '${MODEL_DISPLAY_LABEL}'
+      additionalParameters:
+        model: 'gpt-41'
+        messages:
+        - role: 'user'
+          content: ''
+        max_tokens: 32000
+        temperature: 0.7
+        stream: false
