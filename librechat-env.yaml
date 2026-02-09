@@ -235,10 +235,3 @@ endpoints:
         temperature: 0.7
         stream: false
 
-mcpServers:
-  github-mcp:
-    type: 'streamable-http'
-    url: ${GITHUB_MCP_URL}
-    timeout: 60000
-    headers:
-      Authorization: "'Bearer ${GITHUB_MCP_KEY}'"
