@@ -238,7 +238,7 @@ endpoints:
 mcpServers:
   github-mcp:
     type: 'streamable-http'
-    url: $GITHUB-MCP-URL
+    url: ${GITHUB-MCP-URL}
     timeout: 60000
     headers:
       Authorization: 'Bearer ${GITHUB-MCP-KEY}'
