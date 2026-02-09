@@ -1,15 +1,15 @@
 version: 1.0
 custom:
   - name: 'LLM-GW-V1'
-    apiKey: ${API_KEY}
-    baseURL: ${BASE_URL}
+    apiKey: '${API_KEY}'
+    baseURL: '${BASE_URL}'
     userProvidedApiKey: false
     models:
       default: ['gpt-41']
       fetch: false
     titleConvo: true
     titleModel: 'gpt-41'
-    modelDisplayLabel: ${MODEL_DISPLAY_LABEL}
+    modelDisplayLabel: '${MODEL_DISPLAY_LABEL}'
     additionalParameters:
       model: 'gpt-41'
       messages:
