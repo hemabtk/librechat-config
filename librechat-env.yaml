@@ -217,15 +217,15 @@ endpoints:
       iconURL: https://app.requesty.ai/_next/image?url=%2Ffavicon.ico&w=96&q=75
 
     - name: 'LLM-GW-V1'
-      apiKey: '${API_KEY}'
-      baseURL: '${BASE_URL}'
+      apiKey: ${API_KEY}
+      baseURL: ${BASE_URL}
       userProvidedApiKey: false
       models:
         default: ['gpt-41']
         fetch: false
       titleConvo: true
       titleModel: 'gpt-41'
-      modelDisplayLabel: '${MODEL_DISPLAY_LABEL}'
+      modelDisplayLabel: ${MODEL_DISPLAY_LABEL}
       additionalParameters:
         model: 'gpt-41'
         messages:
